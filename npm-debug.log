@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Program Files (x86)\\npm\\1.4.28\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ 'C:\\home\\site\\wwwroot', [ 'mssql' ] ]
+6 info preinstall helpdesk-functions@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'mssql@6.4.2', null ]
+9 verbose cache add name=undefined spec="mssql@6.4.2" args=["mssql@6.4.2",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'mssql@6.4.2',
+10 verbose parsed url   path: 'mssql@6.4.2',
+10 verbose parsed url   href: 'mssql@6.4.2' }
+11 verbose cache add name="mssql" spec="6.4.2" args=["mssql","6.4.2"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '6.4.2',
+12 verbose parsed url   path: '6.4.2',
+12 verbose parsed url   href: '6.4.2' }
+13 verbose addNamed [ 'mssql', '6.4.2' ]
+14 verbose addNamed [ '6.4.2', '6.4.2' ]
+15 silly lockFile a65366e4-mssql-6-4-2 mssql@6.4.2
+16 verbose lock mssql@6.4.2 C:\local\AppData\npm-cache\a65366e4-mssql-6-4-2.lock
+17 verbose request where is /mssql
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id a5acf456f2a19663
+20 verbose url raw /mssql
+21 verbose url resolving [ 'https://registry.npmjs.org/', './mssql' ]
+22 verbose url resolved https://registry.npmjs.org/mssql
+23 verbose request where is https://registry.npmjs.org/mssql
+24 info trying registry request attempt 1 at 17:58:23
+25 verbose etag W/"9c25ad4461ed9b0f6347d847a94d1090"
+26 http GET https://registry.npmjs.org/mssql
+27 http 304 https://registry.npmjs.org/mssql
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Sun, 28 Dec 2025 17:58:23 GMT',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     server: 'cloudflare',
+28 silly registry.get     'cf-ray': '9b52f20f1fe82ba8-FRA',
+28 silly registry.get     'cf-cache-status': 'HIT',
+28 silly registry.get     'access-control-allow-origin': '*',
+28 silly registry.get     age: '18',
+28 silly registry.get     'cache-control': 'public, max-age=300',
+28 silly registry.get     etag: '"9c25ad4461ed9b0f6347d847a94d1090"',
+28 silly registry.get     'last-modified': 'Tue, 02 Dec 2025 16:40:17 GMT',
+28 silly registry.get     vary: 'Accept-Encoding',
+28 silly registry.get     'set-cookie': [ '_cfuvid=JhxFedvOwuycrQUVBMwTDmieDdDo7WSo35gGmtCW6mk-1766944703878-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ] } ]
+29 verbose etag https://registry.npmjs.org/mssql from cache
+30 silly lockFile a65366e4-mssql-6-4-2 mssql@6.4.2
+31 silly lockFile a65366e4-mssql-6-4-2 mssql@6.4.2
+32 error Error: version not found: mssql@6.4.2
+32 error     at C:\Program Files (x86)\npm\1.4.28\node_modules\npm\lib\cache\add-named.js:125:12
+32 error     at saved (C:\Program Files (x86)\npm\1.4.28\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+32 error     at Object.oncomplete (fs.js:108:15)
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Windows_NT 6.2.9200
+35 error command "node" "C:\\Program Files (x86)\\npm\\1.4.28\\node_modules\\npm\\bin\\npm-cli.js" "install"
+36 error cwd C:\home\site\wwwroot
+37 error node -v v0.10.40
+38 error npm -v 1.4.28
+39 verbose exit [ 1, true ]
